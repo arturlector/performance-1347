@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1244B63226CC2DB600CA7360 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B63126CC2DB600CA7360 /* GCDViewController.swift */; };
 		1257BC0926C6E55D00C90066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BC0826C6E55D00C90066 /* AppDelegate.swift */; };
 		1257BC0B26C6E55D00C90066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BC0A26C6E55D00C90066 /* SceneDelegate.swift */; };
 		1257BC0D26C6E55D00C90066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BC0C26C6E55D00C90066 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1244B63126CC2DB600CA7360 /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		1257BC0526C6E55D00C90066 /* performance-1347.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "performance-1347.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1257BC0826C6E55D00C90066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1257BC0A26C6E55D00C90066 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1244B63026CC2D7000CA7360 /* lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+				1244B63126CC2DB600CA7360 /* GCDViewController.swift */,
+			);
+			path = "lesson-2";
+			sourceTree = "<group>";
+		};
 		1257BBFC26C6E55D00C90066 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			children = (
 				1257BC0826C6E55D00C90066 /* AppDelegate.swift */,
 				1257BC0A26C6E55D00C90066 /* SceneDelegate.swift */,
+				1244B63026CC2D7000CA7360 /* lesson-2 */,
 				1257BC1D26C6E58F00C90066 /* lesson-1 */,
 				1257BC1C26C6E57300C90066 /* Resources */,
 			);
@@ -156,6 +167,7 @@
 				1257BC0D26C6E55D00C90066 /* ViewController.swift in Sources */,
 				1257BC0926C6E55D00C90066 /* AppDelegate.swift in Sources */,
 				1257BC0B26C6E55D00C90066 /* SceneDelegate.swift in Sources */,
+				1244B63226CC2DB600CA7360 /* GCDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
